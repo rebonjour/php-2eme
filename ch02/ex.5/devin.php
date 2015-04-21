@@ -4,7 +4,7 @@
 <html>
 	<head>
 		<title>
-			Inscris-toi!
+			Jeu de caca!
 		</title>
 		<?php 
 			
@@ -18,7 +18,7 @@
 	<body>
 		<form action="resultat.php"  method="post">
 			<fieldset>
-				<p>devine un nombre entre 10 et 50</p>
+				<p>TOMBOLA entre 1 et 5</p>
 				<input type="text" name="utilisateur" />
 
 				<input type="hidden" name="devine" value="<?= $random ?>">
