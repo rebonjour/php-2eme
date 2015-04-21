@@ -18,6 +18,24 @@
 		?>
 	</head>
 	<body>
+        
+        <?php
+        if (mb_strlen ($login) <3) {
+                echo"<h4>Ton login est trop court brow</h4>";
+        }
+        if (mb_strlen($password) < 5) {
+            echo"<h4>Ton mot de passe est trop court many</h4>";
+        }
+        if ($type != 'F' AND $type != 'H') {
+            echo"<h4>T'es quoi man? Un hornytoringue NIGGA?</h4>";
+        }
+        if (empty($presentation)){
+            echo"<h4>Ta présentation man</h4>";
+        }
+        ?>
+        
+        
+        
 		<h1>ton conte bro</h1>
 			<p>
 				Login: <?= $login ?> <br>
