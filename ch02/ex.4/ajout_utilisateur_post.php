@@ -36,7 +36,7 @@
         
         
         
-		<h1>ton conte bro</h1>
+		<h1>ton compte brow           </h1>
 			<p>
 				Login: <?= $login ?> <br>
 				Mot de passe: <?= $password ?> <br>
