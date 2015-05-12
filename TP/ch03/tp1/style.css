@@ -1,0 +1,24 @@
+body {
+	text-align: center;
+	font-family: century ;
+
+}
+
+table {
+	border: 1px solid #000;
+	display: inline-block;
+}
+
+td {
+	text-align: center;
+	width: 40px;
+	background-color: blue;
+	color: white;
+}
+
+h1{
+	font-family: century;
+	font-size: 50px;
+} 
+
+// le swag de l'animal poilu
